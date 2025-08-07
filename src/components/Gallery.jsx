@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import './../app.css'
+import '../app.css'
 import useGetdata from '../hooks/useGetData'
 
 
