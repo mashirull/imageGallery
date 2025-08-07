@@ -1,0 +1,62 @@
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 16px;
+}
+
+.gallery-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+/* body{
+    background-image: url('https://images.unsplash.com/photo-1531824475211-72594993ce2a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8d29vZHxlbnwwfHwwfHx8MA%3D%3D');
+} */
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-top: 20px;
+}
+
+.search {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px 0 0 6px;
+  font-size: 16px;
+  outline: none;
+  width: 220px;
+  transition: border-color 0.2s;
+}
+
+.search:focus {
+  border-color: #007bff;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 0 6px 6px 0;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-left: -4px; /* Connects button to input */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
