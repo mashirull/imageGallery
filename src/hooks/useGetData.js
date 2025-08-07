@@ -13,6 +13,7 @@ const useGetdata = (url , query ) => {
                 params: {
                     query:  query ? query : 'car',
                     limit: '20',
+                    size  : 'large'
 
                 },
                 headers: {
